@@ -1,0 +1,43 @@
+# Bancos de dados (contêm dados de teste, inclusive CPF/hash de senha)
+*.db
+*.sqlite
+*.sqlite3
+*.sqbpro
+
+# Credenciais e variáveis de ambiente
+.env
+_env
+*.env
+
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Arquivos de controle/checkpoint gerados em tempo de execução
+ultima_execucao.txt
+
+# Planilhas geradas automaticamente (saída, não código-fonte)
+*.xlsx
+!exemplo_*.xlsx
+
+# Arquivos temporários
+temp_*.xlsx
+*.tmp
+
+# Configuração de IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+#Pastas sistema
+*.rar
+*.zip
